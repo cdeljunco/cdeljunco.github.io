@@ -1,18 +1,186 @@
+@import 'variables';
+
 html {
   height: 100%;
+  width: 100%;
   box-sizing: border-box;
-  font-size: 100%;
 }
-*,*:before,*:after { box-sizing: inherit; }
+
+*,*:before,*:after { 
+  box-sizing: inherit; 
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow-x: hidden;
-  font-family: 'PT Mono', monospace;
-  color: #3b3b3b;
+  width: 100%;
+  overflow: hidden;
+  font-family: $font-family-primary;
+  color: $color-black;
 }
-h1,h2,h3,h4,h5 {
-  margin: 6px;
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0; 
   padding: 0;
 }
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+}
+
+/* Sidebar */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 25%;
+  height: 100%;
+  border-right: $border-black;
+  padding: 30px 0;
+  justify-content: space-between;
+}
+
+.portrait {
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid $color-red;
+}
+
+.navigation {
+  text-align: center;
+
+  &__container {
+    list-style: none;
+  }
+
+  &__item {
+    margin: 30px 0;
+
+    &:first-of-type {
+      margin: 0;
+    }
+  }
+
+  &__link {
+    font-family: $font-family-secondary;
+    color: $color-black;
+    font-size: 32px;
+    text-decoration: none;
+    border-bottom: 4px solid $color-black;
+    transition: border-bottom 0.25s ease-in-out, color 0.25s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $color-red;
+      border-bottom: 4px solid $color-red;
+      transition: all 0.25s ease-in-out;
+    }
+  }
+}
+
+.contact {
+  margin-top: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    &:first-of-type {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__icon {
+    height: 16px;
+    margin-right: 8px;
+  }
+
+  &__link {
+    color: $color-black;
+    transition: color 0.25s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $color-blue;
+      transition: color 0.25s ease-in-out;
+    }
+  }
+}
+/* Page */
+
+.wrapper {
+  max-width: 75%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: scroll; // TODO: move this to the card instead
+
+  &--about {
+    background-color: $color-blue;
+  }
+
+  &--academics {
+    background-color: $color-red;
+  }
+
+  &--activities {
+    background-color: $color-yellow;
+  }
+}
+
+.title {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: $color-red;
+  font-family: $font-family-secondary;
+  font-weight: bold;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: transparent;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+// TODO: create one rule for display flex
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  background-color: $color-white;
+  border: $border-black;
+  height: 100%;
+  padding: 60px 120px;
+
+  &__title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: left;
+
+    &--about {
+      -webkit-text-stroke-color: $color-blue;
+    }
+  }
+
+  &__body {
+    font-size: 16px;
+
+    // TODO: need a link style for blue text
+    &--about {
+      color: $color-blue;
+    }
+  }
+}
+
+// TODO: underline effect from this site: https://vscode.pro/

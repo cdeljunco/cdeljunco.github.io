@@ -1,3 +1,4 @@
+// TODO: proper postcss config
 const postcssPresetEnv = require('postcss-preset-env');
 
 if (process.env.NODE_ENV === 'production') {

@@ -1,0 +1,28 @@
+/* Fonts */
+
+$font-family-primary: 'PT Mono', monospace;
+$font-family-secondary: 'Work Sans', sans-serif;
+
+/* Colors */
+
+$color-red: #E52C38;
+$color-red-darker: #a01e27;
+
+$color-blue: #2000FF;
+$color-blue-darker: #1600b2;
+
+$color-yellow: #FCF62D;
+$color-black: #000;
+$color-white: #fff;
+
+/* Breakpoints */
+
+$breakpoints: (
+  small: 320px,
+  medium: 768px,
+  large: 1024px
+);
+
+/* Borders */
+
+$border-black: 6px solid $color-black;

@@ -43,7 +43,7 @@ module.exports = {
       {
         // Look for Sass files and process them according to the
         // rules specified in the different loaders
-        test: /\.(sa|sc)ss$/,
+        test: /\.scss$/,
 
         // Use the following loaders from right-to-left, so it will
         // use sass-loader first and ending with MiniCssExtractPlugin
@@ -75,7 +75,7 @@ module.exports = {
       {
         // Adds support to load images in your CSS rules. It looks
         // for .png, .jpg, .jpeg and .gif
-        test: /\.(png|jpe?g|gif)$/,
+        test: /\.(png|jpe?g|gif|svg)$/,
         use: [
           {
             loader: 'file-loader',

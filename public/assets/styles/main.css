@@ -1,7 +1,11 @@
+/* Fonts */
+/* Colors */
+/* Breakpoints */
+/* Borders */
 html {
   height: 100%;
-  box-sizing: border-box;
-  font-size: 100%; }
+  width: 100%;
+  box-sizing: border-box; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -10,11 +14,120 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow-x: hidden;
-  font-family: 'PT Mono', monospace;
-  color: #3b3b3b; }
+  width: 100%;
+  overflow: hidden;
+  font-family: "PT Mono", monospace;
+  color: #000; }
 
-h1, h2, h3, h4, h5 {
-  margin: 6px;
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
   padding: 0; }
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: row; }
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 25%;
+  height: 100%;
+  border-right: 6px solid #000;
+  padding: 30px 0;
+  justify-content: space-between; }
+
+.portrait {
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #E52C38; }
+
+.navigation {
+  text-align: center; }
+  .navigation__container {
+    list-style: none; }
+  .navigation__item {
+    margin: 30px 0; }
+    .navigation__item:first-of-type {
+      margin: 0; }
+  .navigation__link {
+    font-family: "Work Sans", sans-serif;
+    color: #000;
+    font-size: 32px;
+    text-decoration: none;
+    border-bottom: 4px solid #000;
+    transition: border-bottom 0.25s ease-in-out, color 0.25s ease-in-out; }
+    .navigation__link:hover, .navigation__link:focus, .navigation__link:active {
+      color: #E52C38;
+      border-bottom: 4px solid #E52C38;
+      transition: all 0.25s ease-in-out; }
+
+.contact {
+  margin-top: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+  .contact__item {
+    display: flex;
+    align-items: center; }
+    .contact__item:first-of-type {
+      margin-bottom: 15px; }
+  .contact__icon {
+    height: 16px;
+    margin-right: 8px; }
+  .contact__link {
+    color: #000;
+    transition: color 0.25s ease-in-out; }
+    .contact__link:hover, .contact__link:focus, .contact__link:active {
+      color: #2000FF;
+      transition: color 0.25s ease-in-out; }
+
+/* Page */
+.wrapper {
+  max-width: 75%; }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: scroll; }
+  .page--about {
+    background-color: #2000FF; }
+  .page--academics {
+    background-color: #E52C38; }
+  .page--activities {
+    background-color: #FCF62D; }
+
+.title {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #E52C38;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: transparent;
+  letter-spacing: 1.5px;
+  text-align: center; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  background-color: #fff;
+  border: 6px solid #000;
+  height: 100%;
+  padding: 60px 120px; }
+  .card__title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: left; }
+    .card__title--about {
+      -webkit-text-stroke-color: #2000FF; }
+  .card__body {
+    font-size: 16px; }
+    .card__body--about {
+      color: #2000FF; }
 
