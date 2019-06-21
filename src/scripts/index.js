@@ -9,5 +9,7 @@ import router from './utils/router';
 
     // render page content on load
     window.addEventListener('load', handleChangeRoute);
+
+    console.log('hello github');
 })();
 
