@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev:watch": "webpack --watch",
-    "dev:serve": "live-server --open=./public/ --host=localhost --watch=./public/",
+    "dev:serve": "live-server --open=./public/index.html --host=localhost --watch=./public/",
     "watch": "npm-run-all -p dev:*",
     "build": "webpack NODE_ENV=production"
   },
