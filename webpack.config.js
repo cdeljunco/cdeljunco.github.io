@@ -1,11 +1,7 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const devMode = process.env.NODE_ENV !== 'production';
-
 module.exports = {
-  mode: devMode ? 'development' : 'production',
-  devtool: devMode ? 'inline-source-map' : 'source-map',
   entry: ['./src/scripts/index.js', './src/styles/index.scss'],
   output: {
     path: path.resolve(__dirname, 'public'),

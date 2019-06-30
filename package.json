@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev:watch": "webpack --watch",
+    "dev:watch": "webpack --watch --mode development",
     "dev:serve": "live-server --open=./index.html --host=localhost --watch=./public/",
     "watch": "npm-run-all -p dev:*",
-    "build": "webpack NODE_ENV=production"
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
