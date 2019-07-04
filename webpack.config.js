@@ -1,11 +1,12 @@
 const path = require('path');
+const cssnano = require('cssnano');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
   entry: ['./src/scripts/index.js', './src/styles/index.scss'],
   output: {
     path: path.resolve(__dirname, 'public'),
-    publicPath: '/assets',
     filename: 'assets/scripts/bundle.js'
   },
   module: {
@@ -13,7 +14,12 @@ module.exports = {
       {
         test: /\.(js)$/,
         exclude: /node_modules/,
-        use: ['babel-loader']
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
       },
       {
         test: /\.scss$/,
@@ -28,7 +34,12 @@ module.exports = {
             }
           },
           {
-            loader: 'postcss-loader'
+            loader: 'postcss-loader',
+            options: {
+              plugins: [
+                require('autoprefixer')(),
+              ]
+            }
           },
           {
             loader: 'sass-loader'
@@ -42,7 +53,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[name].[ext]',
-              publicPath: '../images',
+              publicPath: './public/assets/images',
               emitFile: false
             }
           }
@@ -51,6 +62,16 @@ module.exports = {
     ]
   },
   plugins: [
+    new OptimizeCssAssetsPlugin({
+      assetNameRegExp: /\.css$/g,
+      cssProcessor: cssnano,
+      cssProcessorPluginOptions: {
+        preset: [
+          'default',
+        ]
+      },
+      canPrint: true,
+    }),
     new MiniCssExtractPlugin({
       filename: 'assets/styles/main.css'
     })

@@ -1,5 +1,6 @@
-const Activities = (
-    `
+import { html } from 'lit-html';
+
+const activities = (html`
     <div class="page page--activities" name="activities">
         <div class="card">
             <h2 class="title card__title">Activities</h2>
@@ -20,8 +21,8 @@ const Activities = (
                 </p>
                 <p class="card__body card__body--activities">
                     Most recently, I was proud to take part in an industrial action with my colleagues where we <a
-                        href="https://www.chicagomaroon.com/article/2019/6/4/gsu-strike-day-one/"
-                        target="_blank">picketed</a> the University of Chicago for 3 days in June 2019 with broad
+                    href="https://www.chicagomaroon.com/article/2019/6/4/gsu-strike-day-one/"
+                    target="_blank">picketed</a> the University of Chicago for 3 days in June 2019 with broad
                     support from undergraduates, alumni, faculty, other labor unions, politicians, and community
                     members, in order to pressure the administration to meet their ethical obligation to recognize our
                     union.
@@ -38,18 +39,17 @@ const Activities = (
                     In my limited remaining free time, I am a techno enthusiastic, aka raver. Mostly this interest does
                     not result in productive output, which is part of what I like about it, but in 2016 I contributed to
                     the <a href="https://drive.google.com/file/d/1H56d-XSiynLJ5BHaB8-UkzSKmLn67T0D/view"
-                        target="_blank">Rave Ethics</a> zine (email me if you can guess what my contribution was).
+                    target="_blank">Rave Ethics</a> zine (email me if you can guess what my contribution was).
                     Although the website you're on now was built by my friend and fellow techno enthusiast <a
-                        href="https://www.hanna-jones.com/about" target="_blank">Hanna Jones</a>, I made the website and
+                    href="https://www.hanna-jones.com/about" target="_blank">Hanna Jones</a>, I made the website and
                     was involved in developing the mission and first release of <a href="http://futureethics.net/"
-                        target="_blank">Rave Ethics</a> offshoot label Future Ethics, run by <a
-                        href="https://twitter.com/ursulaxanadu?lang=en" target="_blank">Ursula Xanadu</a> and <a
-                        href="https://www.instagram.com/beethrilll/" target="_blank">Bee Hill</a>.
+                    target="_blank">Rave Ethics</a> offshoot label Future Ethics, run by <a
+                    href="https://twitter.com/ursulaxanadu?lang=en" target="_blank">Ursula Xanadu</a> and <a
+                    href="https://www.instagram.com/beethrilll/" target="_blank">Bee Hill</a>.
                 </p>
             </div>
         </div>
     </div>
-    `
-);
+`);
 
-export default Activities;
+export default activities;

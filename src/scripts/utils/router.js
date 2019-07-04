@@ -1,6 +1,7 @@
-import AboutPage from '../pages/About';
-import AcademicsPage from '../pages/Academics';
-import ActivitiesPage from '../pages/Activities';
+import { render } from 'lit-html';
+import aboutPage from '../pages/About';
+import academicsPage from '../pages/Academics';
+import activitiesPage from '../pages/Activities';
 
 // expects a route in the form of #{route}
 // could be expanded/modified to support route params
@@ -14,9 +15,9 @@ const paths = {
 };
 
 const routes = {
-    [paths.ABOUT]: AboutPage,
-    [paths.ACADEMICS]: AcademicsPage,
-    [paths.ACTIVITIES]: ActivitiesPage
+    [paths.ABOUT]: aboutPage,
+    [paths.ACADEMICS]: academicsPage,
+    [paths.ACTIVITIES]: activitiesPage
 };
 
 // TODO: still need to figure out how to set active route styling when not navigating with links
@@ -24,8 +25,7 @@ const router = (rootElement) => {
     const currentRoute = getRoute();
 
     // we don't have a 404 page, we just always show 'about' by default
-    rootElement.innerHTML = routes[currentRoute] || routes[paths.ABOUT];
-    
+    render((routes[currentRoute] || routes[paths.ABOUT]), rootElement);
 }
 
 export default router;

@@ -1,5 +1,6 @@
-const About = (
-    `
+import { html } from 'lit-html';
+
+const about = (html`
     <div class="page page--about" name="about">
         <div class="card">
             <h2 class="title card__title card__title--about">About</h2>  
@@ -14,7 +15,6 @@ const About = (
             </p>
         </div>
     </div>
-    `
-);
+`);
 
-export default About;
+export default about;

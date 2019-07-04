@@ -1,5 +1,7 @@
-const Academics = (
-    `
+import { html } from 'lit-html';
+
+const academics = (html`
+fuckkk
     <div class="page page--academics" name="academics">
         <div class="card">
             <h2 class="title card__title">Academics</h2>
@@ -119,7 +121,6 @@ const Academics = (
             </div>
         </div>
     </div>
-    `
-);
+`);
 
-export default Academics;
+export default academics;
