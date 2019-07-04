@@ -47,17 +47,12 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jpe?g|gif|svg)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              publicPath: './public/assets/images',
-              emitFile: false
-            }
-          }
-        ]
+        test: [/\.jpe?g$/, /\.png$/],
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+          name: 'public/assets/images/[name].[ext]',
+        },
       }
     ]
   },
