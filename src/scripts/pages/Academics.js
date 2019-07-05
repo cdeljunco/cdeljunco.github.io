@@ -52,7 +52,7 @@ const academics = (html`
                     target="_blank">http://arxiv.org/abs/1808.04914</a>
                 </p>
                 <figure class="figure">
-                    <img class="figure__image" src="../../../public/assets/images/bo-fig.png" alt="bo-fig">
+                    <img class="figure__image" src="../../../public/assets/images/clara.jpg" alt="bo-fig">
                     <figcaption class="figure__caption">
                     (a) Biochemical oscillators undergo limit cycles in a high-dimensional phase space of molecule
                     counts[1]. (b) I model oscillators by projecting down the average limit cycle on to a Markov state
@@ -93,7 +93,7 @@ const academics = (html`
                     liquids with time-dependent dynamics. J Chem Phys 150(9):094708.
                 </p>
                 <figure class="figure">
-                    <img class="figure__image" src="../../../public/assets/images/rb-fig.png" alt="rb-fig">
+                    <img class="figure__image" src="../../../public/assets/images/rbFig.png" alt="rb-fig">
                     <figcaption class="figure__caption">
                     (a) Magnetic colloids separate according to chirality when exposed to a rotating magnetic field[5].
                     (b) A minimal model of 2D disks with repulsive Weeks-Chandler Andersen (WCA) interactions reproduces

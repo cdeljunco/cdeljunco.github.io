@@ -36,16 +36,15 @@ const activities = (html`
             <div class="card__section">
                 <h3 class="card__subtitle">Techno</h3>
                 <p class="card__body card__body--activities">
-                    In my limited remaining free time, I am a techno enthusiastic, aka raver. Mostly this interest does
-                    not result in productive output, which is part of what I like about it, but in 2016 I contributed to
-                    the <a href="https://drive.google.com/file/d/1H56d-XSiynLJ5BHaB8-UkzSKmLn67T0D/view"
-                    target="_blank">Rave Ethics</a> zine (email me if you can guess what my contribution was).
-                    Although the website you're on now was built by my friend and fellow techno enthusiast <a
-                    href="https://www.hanna-jones.com/about" target="_blank">Hanna Jones</a>, I made the website and
-                    was involved in developing the mission and first release of <a href="http://futureethics.net/"
-                    target="_blank">Rave Ethics</a> offshoot label Future Ethics, run by <a
-                    href="https://twitter.com/ursulaxanadu?lang=en" target="_blank">Ursula Xanadu</a> and <a
-                    href="https://www.instagram.com/beethrilll/" target="_blank">Bee Hill</a>.
+                    In my limited remaining free time, I am a techno enthusiastic, aka raver. Mostly this interest does not result in productive output, which is part of what I like about it, but in 2016 I contributed to the <a href="https://drive.google.com/file/d/1H56d-XSiynLJ5BHaB8-UkzSKmLn67T0D/view" target="_blank">Rave Ethics</a> zine (email me if you can guess what my contribution was). Although the website you're on now was built by my friend and fellow techno enthusiast <a href="https://www.hanna-jones.com/about" target="_blank">Hanna Jones</a>, I made the website and was involved in developing the mission and first release of Rave Ethics offshoot label <a href="http://futureethics.net/" target="_blank">Future Ethics</a>, run by <a href="https://twitter.com/ursulaxanadu?lang=en" target="_blank">Ursula Xanadu</a> and <a href="https://www.instagram.com/beethrilll/" target="_blank">Bee Hill</a>.
+                </p>
+                <p class="card__body card__body--activities">-----</p>
+                <p class="card__body card__body--activities">
+                    I also like the things that most people like (coffee, traveling, baking bread, swimming off Promontory Point, etc.)
+                </p>
+                <p class="card__body card__body--activities">-----</p>
+                <p class="card__body card__body--activities">
+                    [1] See <a href="https://www.sciencemag.org/careers/2018/06/push-graduate-student-unions-signals-deep-structural-shift-academia" target="_blank">The push for graduate student unions signals a deep structural shift in academia</a> in Science; <a href="https://www.jacobinmag.com/search?query=graduate+student+unionization" target="_blank">a handful of articles in Jacobin magazine</a>; <a href="https://www.newyorker.com/business/currency/graduate-students-the-laborers-of-academia" target="_blank">Graduate Students, the Laborers of Academia</a> in the New Yorker; and <a href="https://www.chicagomaroon.com/article/2019/6/4/supporting-gsu-economically-logical/" target="_blank">Supporting GSU Is Economically Logical</a> in the Chicago Maroon; to name only a small selection.
                 </p>
             </div>
         </div>
