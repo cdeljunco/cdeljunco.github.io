@@ -11,6 +11,5 @@ import router from './utils/router';
     window.addEventListener('load', handleChangeRoute);
 
     // TODO: add event listener resize - hid/show clara image and sidebar/nav
-    // TODO: highlight default about route on page load
 })();
 
