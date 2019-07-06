@@ -52,7 +52,7 @@ const academics = (html`
                     target="_blank">http://arxiv.org/abs/1808.04914</a>
                 </p>
                 <figure class="figure">
-                    <img class="figure__image" src="../../../public/assets/images/clara.jpg" alt="bo-fig">
+                    <img class="figure__image" src="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2F2RNK1P0BYVrSCZEy_Sd1Ew%252F3417757448_4a6bdf36ce_o.jpg&width=1200&quality=80" alt="bo-fig">
                     <figcaption class="figure__caption">
                     (a) Biochemical oscillators undergo limit cycles in a high-dimensional phase space of molecule
                     counts[1]. (b) I model oscillators by projecting down the average limit cycle on to a Markov state
