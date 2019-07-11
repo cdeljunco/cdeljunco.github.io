@@ -119,3 +119,25 @@
     line-height: 1.3;
   }
 }
+
+@media screen and (max-width: $break-large) {
+  .wrapper {
+    height: 100%;
+    margin-top: 150px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .page {
+    height: auto;
+    overflow: auto;
+  }
+
+  .card {
+    overflow-y: visible;
+
+    &__section:last-of-type {
+      padding-bottom: 0;
+    }
+  }
+}

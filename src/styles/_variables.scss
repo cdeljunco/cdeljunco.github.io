@@ -6,22 +6,16 @@ $font-family-secondary: 'Work Sans', sans-serif;
 /* Colors */
 
 $color-red: #E52C38;
-$color-red-darker: #a01e27;
-
 $color-blue: #2000FF;
-$color-blue-darker: #1600b2;
-
 $color-yellow: #FCF62D;
 $color-black: #000;
 $color-white: #fff;
 
 /* Breakpoints */
 
-$breakpoints: (
-  small: 320px,
-  medium: 768px,
-  large: 1024px
-);
+$break-small: 320px;
+$break-medium: 768px;
+$break-large: 1025px;
 
 /* Borders */
 

@@ -9,7 +9,5 @@ import router from './utils/router';
 
     // render page content on load
     window.addEventListener('load', handleChangeRoute);
-
-    // TODO: add event listener resize - hid/show clara image and sidebar/nav
 })();
 

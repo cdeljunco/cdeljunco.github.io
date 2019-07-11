@@ -1,5 +1,5 @@
 @import 'variables';
-@import 'sidebar';
+@import 'navbar';
 @import 'page';
 
 /* Base Styles */
@@ -10,7 +10,7 @@ html {
   box-sizing: border-box;
 }
 
-*,*:before,*:after { 
+*, *:before, *:after { 
   box-sizing: inherit; 
 }
 
@@ -34,4 +34,32 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   display: flex;
   height: 100vh;
   flex-direction: row;
+}
+
+.onMobile {
+  display: none;
+}
+
+.onDesktop {
+  display: block;
+}
+
+::selection,
+::-moz-selection {
+  background: $color-yellow;
+}
+
+@media screen and (max-width: $break-large) {
+  .container {
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+
+  .onMobile {
+    display: block;
+  }
+  
+  .onDesktop {
+    display: none;
+  }
 }
