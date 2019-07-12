@@ -26,7 +26,7 @@ const academics = (html`
                 <p class="card__body card__body--academics card__body--footnotes">
                     [4] del Junco C, Vaikuntanathan S (2018) High chemical affinity increases the robustness of biochemical oscillations. <a class="card__body__link" href="http://arxiv.org/abs/1808.04914" target="_blank">http://arxiv.org/abs/1808.04914</a>
                 </p>
-                <figure class="figure">
+                <figure class="figure onDesktop">
                     <img class="figure__image" src="https://clara-photos.s3.amazonaws.com/boFig.png" alt="bo-fig">
                     <figcaption class="figure__caption">
                     (a) Biochemical oscillators undergo limit cycles in a high-dimensional phase space of molecule counts[1]. (b) I model oscillators by projecting down the average limit cycle on to a Markov state model. (c) Analytical expressions accurately predict the values of the period and coherence of the oscillations in models with randomly assigned rates. The derivation predicts that these values are insensitive to fluctuations in the rates when the driving force is high. Numerics confirm that, as a consequence, the time scales of oscillators with random rates become more tightly distributed, and therefore more robust, at high driving. (d) To include fluctuations about the average limit cycle, I add small secondary cycles to the Markov model. The time scales can also be analytically predicted in this model. (e) When the rates are correctly tuned in the multicyclic network in (d), the oscillator can compensate for changes in the driving force and keep a constant period.
@@ -45,7 +45,7 @@ const academics = (html`
                 <p class="card__body card__body--academics card__body--footnotes">
                     [7] del Junco C, Vaikuntanathan S (2019) Interface height fluctuations and surface tension of driven liquids with time-dependent dynamics. J Chem Phys 150(9):094708.
                 </p>
-                <figure class="figure">
+                <figure class="figure onDesktop">
                     <img class="figure__image" src="https://clara-photos.s3.amazonaws.com/rbFig.png" alt="rb-fig">
                     <figcaption class="figure__caption">
                     (a) Magnetic colloids separate according to chirality when exposed to a rotating magnetic field[5]. (b) A minimal model of 2D disks with repulsive Weeks-Chandler Andersen (WCA) interactions reproduces the basic features of the experiment. As the magnitude and period of the rotating driving force is increased, the colloids phase separate and then undergo a reentrant transition. (c) A whole phase diagram emerges from a single point in the equilibrium phase space of the particles. The work done on

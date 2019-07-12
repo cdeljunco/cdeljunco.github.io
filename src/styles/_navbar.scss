@@ -124,3 +124,17 @@
     }
   }
 }
+
+@media screen and (max-width: $break-medium) {
+  .navbar {
+    height: 120px;
+    
+    .title {
+      font-size: 34px;
+    }
+  }
+
+  .navigation__link {
+    font-size: 22px;
+  }
+}
