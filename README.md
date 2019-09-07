@@ -56,11 +56,11 @@ There are a few packages/groups of packages I want to highlight specifically:
 
 To get a better sense of what is going on here (or perhaps just to get a bit more confused...), you can take a look at the `webpack.config.js` file. Here we are doing a few things:
 
-`entry` - Passing webpack and array that specifies where it should look to start building our `bundle.js` and `main.css` files, respectively.
+**`entry`** - Passing webpack and array that specifies where it should look to start building our `bundle.js` and `main.css` files, respectively.
 
-`output` - Telling webpack where to put those files once they have been built, and what to call our bundled JavaScript file.
+**`output`** - Telling webpack where to put those files once they have been built, and what to call our bundled JavaScript file.
 
-`module` - Giving webpack more specific instructions on how to handle different types of files it may encounter while building those bundled files. Webpack uses different [loaders](https://webpack.js.org/loaders/) to process each type of file.
+**`module`** - Giving webpack more specific instructions on how to handle different types of files it may encounter while building those bundled files. Webpack uses different [loaders](https://webpack.js.org/loaders/) to process each type of file.
 
 --
 
@@ -86,7 +86,7 @@ This massive group of packages is used to:
 
 will be transformed into:
 
-``css
+```css
 .page--about {
   display: flex;
   background-color: #2000FF;
