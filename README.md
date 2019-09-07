@@ -119,3 +119,5 @@ For more details on how switching between pages works, you can take a look at th
 Ok, so was all of this necessary / was this the simplest way to do things? Definitely not. But I had fun doing it and playing around with these tools, some of which I have used for work and some of which were totally new to me. It should be set up in such a way that you can easily build on top of it - either by adding more pages, changing text and images, or even doing more complex things in the future if you like.
 
 Hopefully you can have some fun editing it, or maybe this has been overly complicated enough to put you off of JavaScript and front end development forever 😱. If so, that is understandable & I'm sorry!!
+
+Obviously feel free to email/text/carrier pigeon me if anything comes up when you are trying to work on this later.
