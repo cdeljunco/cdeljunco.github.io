@@ -14,6 +14,10 @@ const about = (html`
                     <a class="contact__link" href="mailto:clara.deljunco@gmail">clara.deljunco@gmail</a>
                 </div>
                 <div class="contact__item">
+                    <img class="contact__icon" src="./public/assets/images/file-text.svg" alt="email icon">
+                    <a class="contact__link" href="https://clara-photos.s3.amazonaws.com/ClaradelJunco.pdf" download target="_blank">Resume / CV</a>
+                </div>
+                <div class="contact__item">
                     <img class="contact__icon" src="./public/assets/images/book-open.svg" alt="book icon">
                     <a class="contact__link" href="https://scholar.google.com/citations?user=NyQ4unsAAAAJ&hl=en" target="_blank">Google Scholar</a>
                 </div>
