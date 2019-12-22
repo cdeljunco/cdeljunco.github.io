@@ -3,9 +3,9 @@ import { html } from 'lit-html';
 const academics = (html`
     <div class="page page--academics" name="academics">
         <div class="card">
-            <h2 class="title card__title">Academics</h2>
+           <h2 class="title card__title card__title--academics">Research</h2> 
             <div class="card__section">
-                <h3 class="card__subtitle">Research interests</h3>
+                <!-- <h3 class="card__subtitle">Research interests</h3> -->
                 <p class="card__body card__body--academics">
                     Using equilibrium statistical mechanics, we can - in principle - derive macroscopic properties of systems from microscopic interactions. Yet most systems are out of equilibrium, for which no such principle exists. In particular, evolution has produced many incredible nonequilibrium machines and materials: from self-healing materials like muscles, to nanoscale factories that underlie gene expression. Experimentalists can now study these systems with remarkable levels of detail, and are even able to recreate some of their basic functions in synthetic systems. A rigorous physical understanding of how these systems convert energy input to function is essential to make useful biomimetic materials and machines. During my PhD I have studied how energy consumption controls the properties of model
                     systems inspired by two classes of contemporary experiments.

@@ -44,7 +44,7 @@ After that, you can just push the new files to the `master` branch of the repo a
 
 All of the dependencies for this project, as well as the scripts to run it locally and build for production, can be found in the `package.json` file. I just wanted to go over some of them quickly to give you some general context on why certain packages were included and what they do.
 
-First of all, you will notice that the packages are split between `devDependencies` and `dependencies` (there's only one for this project). As the name suggests, `devDependencies` are generally either used when building the project for local development, or play some role in transforming/packaing the code when it's time to deploy. They are not included in the code that gets deployed to GitHub pages. 
+First of all, you will notice that the packages are split between `devDependencies` and `dependencies` (there's only one for this project). As the name suggests, `devDependencies` are generally either used when building the project for local development, or play some role in transforming/packaging the code when it's time to deploy. They are not included in the code that gets deployed to GitHub pages. 
 
 There are a few packages/groups of packages I want to highlight specifically:
 
@@ -121,3 +121,13 @@ Ok, so was all of this necessary / was this the simplest way to do things? Defin
 Hopefully you can have some fun editing it, or maybe this has been overly complicated enough to put you off of JavaScript and front end development forever 😱. If so, that is understandable & I'm sorry!!
 
 Obviously feel free to email/text/carrier pigeon me if anything comes up when you are trying to work on this later.
+
+---
+
+### Clara notes to self
+
+- Where the code is that I should actually edit:
+  - index.html : contains the nav bar and, on desktop, the contact links.
+  - src/scripts/pages: contains .js files for each page
+    - On mobile, contact items are in About.js
+  - src/styles: contains styles

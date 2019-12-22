@@ -15,12 +15,12 @@
   }
 
   &--academics {
-    background-color: $color-red;
-  }
-
-  &--activities {
     background-color: $color-yellow;
   }
+
+  /*&--activities {
+    background-color: $color-yellow;
+  }*/
 }
 
 .title {
@@ -54,6 +54,12 @@
       -webkit-text-stroke-color: $color-blue;
       margin-bottom: 30px;
     }
+
+    &--academics {
+      -webkit-text-stroke-color: $color-blue;
+      margin-bottom: 30px;
+    }
+
   }
 
   &__subtitle {

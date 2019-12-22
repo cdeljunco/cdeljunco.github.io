@@ -1,19 +1,19 @@
 import { render } from 'lit-html';
 import aboutPage from '../pages/About';
 import academicsPage from '../pages/Academics';
-import activitiesPage from '../pages/Activities';
+/*import activitiesPage from '../pages/Activities';*/
 import { toggleActiveLink } from './styles';
 
 const paths = {
     ABOUT: 'about',
     ACADEMICS: 'academics',
-    ACTIVITIES: 'activities'
+    /*ACTIVITIES: 'activities'*/
 };
 
 const routes = {
     [paths.ABOUT]: aboutPage,
     [paths.ACADEMICS]: academicsPage,
-    [paths.ACTIVITIES]: activitiesPage
+    /*[paths.ACTIVITIES]: activitiesPage*/
 };
 
 /**

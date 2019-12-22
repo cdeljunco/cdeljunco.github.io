@@ -32,9 +32,10 @@
   &__item {
     margin: 30px 0;
 
+
     &:first-of-type,
     &:last-of-type {
-      margin: 0;
+      margin: 10px;
     }
   }
 
@@ -51,8 +52,8 @@
     &:focus,
     &:active,
     &.active {
-      color: $color-red;
-      border-bottom: 4px solid $color-red;
+      color: $color-green;
+      border-bottom: 4px solid $color-green;
       transition: all 0.25s ease-in-out;
     }
   }
