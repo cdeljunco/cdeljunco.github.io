@@ -25,7 +25,7 @@ This website was inspired by <a class="card__body__link card__body__link--about"
                 </div>
                 <div class="contact__item">
                     <img class="contact__icon" src="./public/assets/images/file-text.svg" alt="email icon">
-                    <a class="contact__link" href="https://www.dropbox.com/s/ltcoy6q2t4wfjb4/ClaradelJunco.pdf?raw=1" download target="_blank">CV</a>
+                    <a class="contact__link" href="https://www.dropbox.com/s/a6kfaa5il8xv561/cv-cdj.pdf?raw=1" download target="_blank">CV</a>
                 </div>
                 <div class="contact__item">
                     <img class="contact__icon" src="./public/assets/images/book-open.svg" alt="book icon">
