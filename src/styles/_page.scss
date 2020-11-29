@@ -2,8 +2,6 @@
 
 .wrapper {
   max-width: 75%;
-  width: 100%;
-  height: 100%;
 }
 
 .page {
@@ -141,10 +139,6 @@
   .page {
     height: auto;
     overflow: auto;
-
-    &--academics_2 {
-      height: 100%;
-    }
   }
 
   .card {
