@@ -23,7 +23,7 @@ This website was inspired by <a class="card__body__link card__body__link--about"
                 </div>
                 <div class="contact__item">
                     <img class="contact__icon" src="./public/assets/images/file-text.svg" alt="email icon">
-                    <a class="contact__link" href="../../../files/cv-cdj.pdf" download target="_blank">CV</a>
+                    <a class="contact__link" href="files/cv-cdj.pdf" download target="_blank">CV</a>
                 </div>
                 <div class="contact__item">
                     <img class="contact__icon" src="./public/assets/images/book-open.svg" alt="book icon">
