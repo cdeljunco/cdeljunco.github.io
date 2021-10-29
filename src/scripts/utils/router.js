@@ -1,23 +1,16 @@
 import { render } from 'lit-html';
 import aboutPage from '../pages/About';
-import academicsPage from '../pages/Academics';
-/*import activitiesPage from '../pages/Activities';*/
-import current_researchPage from '../pages/Postdoc_Research';
+import linksPage from '../pages/Links';
 import { toggleActiveLink } from './styles';
 
 const paths = {
     ABOUT: 'about',
-    ACADEMICS: 'academics',
-    CURR_RES: 'current_research'
-    /*ACTIVITIES: 'activities'*/
+    LINKS: 'links'
 };
 
 const routes = {
     [paths.ABOUT]: aboutPage,
-    [paths.ACADEMICS]: academicsPage,
-    [paths.CURR_RES]: current_researchPage
-    /*[paths.ACTIVITIES]: activitiesPage*/
-};
+    [paths.LINKS]: linksPage};
 
 /**
  * Expects routes to follow the format #{route}
