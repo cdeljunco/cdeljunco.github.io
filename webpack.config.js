@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
-  entry: ['./src/scripts/index.js', './src/styles/index.scss'],
+  entry: ['./src/scripts/index.js', './src/styles/index.css'],
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'assets/scripts/bundle.js'
@@ -22,7 +22,7 @@ module.exports = {
         }
       },
       {
-        test: /\.scss$/,
+        test: /\.css$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader
@@ -40,9 +40,6 @@ module.exports = {
                 require('autoprefixer')(),
               ]
             }
-          },
-          {
-            loader: 'sass-loader'
           }
         ]
       },

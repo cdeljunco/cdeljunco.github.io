@@ -278,25 +278,25 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./src/styles/index.scss":
-/*!*******************************!*\
-  !*** ./src/styles/index.scss ***!
-  \*******************************/
+/***/ "./src/styles/index.css":
+/*!******************************!*\
+  !*** ./src/styles/index.css ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/styles/index.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/styles/index.css?");
 
 /***/ }),
 
 /***/ 0:
-/*!************************************************************!*\
-  !*** multi ./src/scripts/index.js ./src/styles/index.scss ***!
-  \************************************************************/
+/*!***********************************************************!*\
+  !*** multi ./src/scripts/index.js ./src/styles/index.css ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./src/scripts/index.js */\"./src/scripts/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/styles/index.scss */\"./src/styles/index.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/scripts/index.js_./src/styles/index.scss?");
+eval("__webpack_require__(/*! ./src/scripts/index.js */\"./src/scripts/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/styles/index.css */\"./src/styles/index.css\");\n\n\n//# sourceURL=webpack:///multi_./src/scripts/index.js_./src/styles/index.css?");
 
 /***/ })
 
