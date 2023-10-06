@@ -19,6 +19,12 @@ const links = (html`
                    <a class="card__body__link" href="http://dx.doi.org/10.6082/uchicago.2773" target="_blank">Burnout</a>: A collection of visual and written reflections on academia, travel, and climate change, edited by me and Mathilde Gerbelli-Gauthier.
                 </p>
 	   </div>
+	    <div class="card__section">
+                <p class="card__body card__body--links">
+                   <a class="card__body__link" href="https://www.insidehighered.com/views/2022/04/05/raise-racist-scientific-history-science-papers-opinion" target="_blank">A Weighty Footnote</a>: An opinion piece where I argue that history and politics belong in science papers, based on one of my experiences publishing in a physics journal.                
+		   </p>
+	   </div>
+
         </div>
     </div>
 `);
