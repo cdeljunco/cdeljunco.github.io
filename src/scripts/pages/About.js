@@ -4,7 +4,7 @@ const about = (html`
     <div class="page page--about" name="about">
         <div class="card">
             <h2 class="title card__title card__title--about">About</h2>
-            <img src="files/me.jpg" alt="Clara del Junco" class="portrait onMobile"> 
+            <img src="files/me.jpg" alt="Cay del Junco" class="portrait onMobile"> 
             <p class="card__body card__body--about">
  
 	I am a science librarian currently pursuing a Masters of Information in Library and Information Science at the University of Toronto. </p>           

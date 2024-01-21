@@ -26,7 +26,8 @@
 .navigation__item {
   margin:10px 20px 20px
 }
-.navigation__link {
+.navigation__link,
+.navigation__externalLink {
   font-family:Work Sans,sans-serif;
   font-weight:700;
   color:#000;
@@ -39,6 +40,11 @@
 .navigation__link:active,
 .navigation__link:focus,
 .navigation__link:hover {
+  color:#4df411;
+  border-bottom:4px solid #4df411;
+  transition:all .25s ease-in-out
+}
+.navigation__externalLink:hover {
   color:#4df411;
   border-bottom:4px solid #4df411;
   transition:all .25s ease-in-out
@@ -93,12 +99,13 @@
   }
   .navigation__container {
     display:flex;
-    align-items:center
+    align-items:
   }
   .navigation__item {
     margin:20 20px
   }
-  .navigation__link {
+  .navigation__link,
+  .navigation__externalLink {
     font-size:20px
   }
 }
@@ -109,7 +116,8 @@
   .navbar .title {
     font-size:30px
   }
-  .navigation__link {
+  .navigation__link,
+  .navigation__externalLink {
     font-size:14px
   }
 }

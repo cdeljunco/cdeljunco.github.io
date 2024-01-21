@@ -1,4 +1,4 @@
-# Clara del Junco
+# Cay del Junco
 
 ## Setup
 
@@ -124,7 +124,7 @@ Obviously feel free to email/text/carrier pigeon me if anything comes up when yo
 
 ---
 
-### Clara notes to self
+### Cay notes to self
 
 - Where the code is that I should actually edit:
   - index.html : contains the nav bar and, on desktop, the contact links.
