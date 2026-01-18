@@ -24,7 +24,7 @@ This website was inspired by <a class="card__body__link card__body__link--about"
             <div class="contact onMobile">
                 <div class="contact__item">
                     <img class="contact__icon" src="./public/assets/images/mail.svg" alt="email icon">
-                    <a class="contact__link" href="mailto:caydj@posteo.net">Email</a>
+                    <p>caydj [at] posteo.net</p>
                 </div>
                <!-- <div class="contact__item"> -->
                 <!--   <img class="contact__icon" src="./public/assets/images/file-text.svg" alt="email icon"> -->
