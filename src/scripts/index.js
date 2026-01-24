@@ -1,7 +1,6 @@
 import router from './utils/router.js';
 
 (function() {
-    console.log("test")
     const main = document.getElementById('main');
     const handleChangeRoute = () => router(main);
 
