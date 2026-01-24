@@ -1,4 +1,4 @@
-import { html } from 'lit-html';
+import { html } from 'https://cdn.jsdelivr.net/npm/lit-html@3.3.2/lit-html.min.js';
 
 const about = (html`
     <div class="page page--about" name="about">

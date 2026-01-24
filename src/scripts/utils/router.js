@@ -1,7 +1,7 @@
-import { render } from 'lit-html';
-import aboutPage from '../pages/About';
-import linksPage from '../pages/Links';
-import { toggleActiveLink } from './styles';
+import { render } from 'https://cdn.jsdelivr.net/npm/lit-html@3.3.2/lit-html.min.js';
+import aboutPage from '../pages/About.js';
+import linksPage from '../pages/Links.js';
+import { toggleActiveLink } from './styles.js';
 
 const paths = {
     ABOUT: 'about',
